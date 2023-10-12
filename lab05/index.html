@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Apex Legends Stats Form</title>
+
+	<style>
+		h1 {
+			text-align: center;
+			background-color: beige;
+			width: 600px;
+			margin: 0 auto;
+		}
+		body {
+			background-image: url('apexbackground.jpg');
+		}
+		.form-row {
+			margin:  10px 0px;
+			padding: 10px;
+		}
+		#submit-btn {
+			background-color:  maroon;
+			color: white;
+		}
+		#reset-btn {
+			background-color:  #013220;
+			color: white;
+		}
+		.container-wrapper {
+			width: 600px;
+			margin: 0 auto;
+			background-color: white;
+		}
+
+	</style>
+
+</head>
+
+<body>
+	<h1> Apex Legends Stats Form</h1>
+<form action="confirmation.html">
+<div class="container-wrapper">
+	<div class="form-row">
+		<label for="username" >Username:</label>
+			<input type="text" id="username" placeholder="Your gaming username" required>
+	</div>
+
+	<div class="form-row">
+		<label for="KD-ratio" required>KD Ratio</label>
+			<input type="text" id="KD-ratio" placeholder="1.00"> <!--how to make this require a number input-->
+	</div>
+	<div class="form-row">
+		<label required>What role do you usually play?</label> <!-- how to make questions required-->
+	</div>	
+	<div class="form-row">	
+			<label required><input type="radio" name="gaming-role" value="R1" >Assault </label>
+			<label required><input type="radio" name="gaming-role" value="R2">Runner</label>
+			<label required><input type="radio" name="gaming-role" value="R3">Recon</label>
+			<label required><input type="radio" name="gaming-role" value="R4">Support</label>
+			<label required><input type="radio" name="gaming-role" value="R5">Pioneer</label>
+	</div>
+
+	<div class="form-row">
+		<label >What seasons did you play?</label>
+	</div>
+	<div class="form-row">
+			<label><input type="checkbox" name="seasonsplayed" value="SeasonsPlayed">Season 1</label>
+			<label><input type="checkbox" name="seasonsplayed" value="SeasonsPlayed">Season 2</label>
+			<label><input type="checkbox" name="seasonsplayed" value="SeasonsPlayed">Season 3</label>
+	</div>
+	<div class="form-row">
+			<label><input type="checkbox" name="seasonsplayed" value="SeasonsPlayed">Season 4</label>
+			<label><input type="checkbox" name="seasonsplayed" value="SeasonsPlayed">Season 5</label>
+			<label><input type="checkbox" name="seasonsplayed" value="SeasonsPlayed">Season 6</label>
+	</div>
+	<div class="form-row">
+			<label><input type="checkbox" name="seasonsplayed" value="SeasonsPlayed">Season 7</label>
+			<label><input type="checkbox" name="seasonsplayed" value="SeasonsPlayed">Season 8</label>
+			<label><input type="checkbox" name="seasonsplayed" value="SeasonsPlayed">Season 9</label>
+	</div>
+	<div class="form-row">
+			<label><input type="checkbox" name="seasonsplayed" value="SeasonsPlayed">Season 10</label>
+			<label><input type="checkbox" name="seasonsplayed" value="SeasonsPlayed">Season 11</label>
+			<label><input type="checkbox" name="seasonsplayed" value="SeasonsPlayed">Season 12</label>
+	</div>
+	<div class="form-row">
+			<label><input type="checkbox" name="seasonsplayed" value="SeasonsPlayed">Season 13</label>
+			<label><input type="checkbox" name="seasonsplayed" value="SeasonsPlayed">Season 14</label>
+	</div>
+
+	<div class="form-row">
+		<label for="dropdown-id">What character do you main?</label>
+		<select id="dropdown-id" required>
+			<option value="C1">Wraith</option>
+			<option value="C1">Octane</option>
+			<option value="C1">Newcastle</option>
+			<option value="C1">Valkyrie</option>
+			<option value="C1">Bloodhound</option>
+			<option value="C1">Pathfinder</option>
+			<option value="C1">Horizon</option>
+			<option value="C1">Bangalore</option>
+			<option value="C1">Ash</option>
+			<option value="C1">Lifeline</option>
+			<option value="C1">Loba</option>
+			<option value="C1">Fuse</option>
+			<option value="C1">Rampart</option>
+			<option value="C1">Gibraltar</option>
+			<option value="C1">Mirage</option>
+			<option value="C1">Caustic</option>
+			<option value="C1">Seer</option>
+			<option value="C1">Revenant</option>
+			<option value="C1">Mad Maggie</option>
+			<option value="C1">Watson</option>
+			<option value="C1">Crypto</option>
+		</select>
+	</div>
+
+	<div class="form-row">
+		<label for="textarea-id">What is something you don't enjoy about Apex?</label>
+	</div>
+	<div class="form-row">
+		<textarea id="textarea-id" rows="4" cols="50"></textarea>
+	</div>
+
+<div class="form-row">
+			<label><input type="checkbox" name="termsandcond" value="termsandconditions" required>I accept the terms and conditions</label>
+
+	<div class="form-row">
+		<button id="submit-btn" type="submit">Submit</button>
+		<button id="reset-btn" type="reset">Reset</button>
+	</div>
+</div>
+</div> <!--closes container wrapper-->
+
+</form>	
+</body>
+
+
+</html>

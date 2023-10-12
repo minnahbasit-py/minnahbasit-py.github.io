@@ -1,0 +1,66 @@
+QUESTION 1:
+
+<a target=”_blank” href="http://www.usc.edu/"> USC</a>
+
+QUESTION 2:
+
+<label for="name">Name:</label>
+<input type="text" id="text-id" placeholder="First and Last Name">
+
+QUESTION 3:
+<h1> Fall Favorites </h1>
+<ul>
+	<li>Halloween</li>
+	<li>Octoberfest</li>
+	<li>Pumpkin Spice Latte</li>
+	<li>Thanksgiving Holiday</li>
+</ul>
+
+QUESTION 4:
+@media (max-width: 767px) {
+	img {
+		display:none;
+	}
+}
+
+
+QUESTION 5:
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+</body>
+
+
+</html>
+HTML skeleton consists of: doctype-html-head-body
+
+
+QUESTION 6:
+
+a:hover {
+	color:orange;
+
+}
+
+QUESTION 7:
+.overlay {	
+		background-color: rgba(0, 0, 0, 0.6);
+		}
+
+
+QUESTION 8:
+@font-face {
+			font-family: "Spooky";
+			src: url("fonts/spooky.woff");
+		}
+		
+
+
+
+
+

@@ -1,0 +1,72 @@
+
+
+	h1 {
+		line-height: 500px;
+		text-align: center;
+		color: white;
+	}
+	h2 {
+		color: black;
+	}
+#main-wrapper {
+	width: 900px;
+	margin: 0 auto;
+	background-color: beige;
+
+}
+
+
+
+#footer {
+	color: white;
+	text-align: center;
+	background-color: #b4966e;
+	padding: 10px;
+
+}
+	body {
+		background-color: black;
+
+	}
+.clearfloat {
+		clear: both;
+}
+
+.portrait {
+	width: auto;
+	height: 100%;
+}
+
+
+
+#nav-wrapper {
+		height: 50px;
+		background-color: hotpink;
+		line-height: 50px;
+}
+
+#nav {
+	width: 900px;
+
+	margin: 0 auto;
+
+}
+#nav a {
+	display: inline-block;
+	width: 440px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 21px;
+
+}
+
+
+
+
+
+
+
+
+
+

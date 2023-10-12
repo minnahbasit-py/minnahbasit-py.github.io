@@ -1,0 +1,108 @@
+
+@font-face {
+			font-family: "Korean_Calligraphy";
+			src: url("korean_calligraphy/Korean_Calligraphy.ttf");
+		}
+
+	h1 {
+		line-height: 500px;
+		text-align: center;
+		color: white;
+		font-family: 'Tai Heritage Pro', serif;
+	}
+	h2 {
+		color: black;
+		font-family: 'Korean_Calligraphy', serif;
+	}
+#main-wrapper {
+	width: 900px;
+	margin: 0 auto;
+	background-color: beige;
+
+}
+
+
+
+#footer {
+	color: white;
+	text-align: center;
+	background-color: #b4966e;
+	padding: 10px;
+
+}
+	body {
+		background-color: black;
+
+	}
+.clearfloat {
+		clear: both;
+}
+
+.portrait {
+	width: auto;
+	height: 100%;
+}
+
+
+
+#nav-wrapper {
+		height: 50px;
+		background-color: lightyellow;
+		line-height: 50px;
+}
+
+#nav {
+	width: 900px;
+	margin: 0 auto;
+
+}
+#nav a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 21px;
+
+}
+#navbar {
+	background-color: deeppink;
+	width: 900px;
+	margin: 0 auto;
+}
+#nav ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	z-index: 1;
+	}
+
+#nav li {
+	background-color: #FDD17C;
+	width: 450px;
+	text-align: center;
+	float:left;
+	line-height: 50px;
+	position: relative;
+	}
+#nav li:hover {
+	background-color: #FDD2B5;
+}
+
+#nav ul ul {
+	visibility: hidden;
+}
+
+#nav ul li:hover ul {
+	visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+

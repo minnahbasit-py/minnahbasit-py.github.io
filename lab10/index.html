@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8"> <!-- do i need this -->
+	<title>LAB 10: ANIMATION</title>
+	<style>
+		body {
+			background-image: url('home-alone.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		@font-face {
+			font-family: 'Minecraft';
+			src: url("minecrafter/Minecrafter.Reg.ttf");
+		}
+		.text {
+			background-color: white;
+			color: black;
+			text-align: center;
+			border-radius: 15px;
+			border: 2px solid black;
+			font-family: "Minecraft", Arial, sans-serif;
+			font-size: 15px;
+			display: inline-block;
+			padding: 15px;
+			position: absolute;
+			top: -40px;
+		}
+		#santa{
+			top: 50px;
+			position: relative;
+			left: 1000px;
+			animation: walk 5s infinite; 
+			
+		}
+		@keyframes walk {
+			0% {
+				
+				left: 1000px;
+			}
+			100% {
+				
+				left: 0px;
+			}
+		}
+
+		
+
+	</style>
+
+</head>
+
+<body>
+	<div id ="santa">
+		<p class="text"> HAPPY HOLIDAYS! </p>
+		<img src="santa.gif" alt="Santa gif">
+		
+
+	</div>
+</body>
+
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Lab 6:Simple Image Gallery</title>
+	<style>
+	body {
+		background-image: url('impressionism/impressionism-background.jpg')
+	}
+	h1 {
+		text-align: center;
+
+	}
+	.image-wrapper { 
+		background-color: #fff1e6;
+		width: 1320px;
+		margin: 0 auto;
+	}
+
+	.image-row1{			
+		margin: 10px;
+		margin: 0 auto;
+		padding: 20px;
+		width: 400px;
+		height: 350px;
+		float: left;
+
+		border-radius:15px;
+	}
+	.image-row2{			
+		margin: 10px;
+		margin: 0 auto;
+		padding: 20px;
+		width: 400px;
+		height: 350px;
+		float: left;
+		border-radius:15px;
+	}
+
+	.image-row1:hover p {
+		visibility: visible;
+	}
+	.image-row2:hover p {
+		visibility: visible;
+	}
+
+	p {
+		visibility: hidden;
+	}
+		
+	.clearfloat {
+		clear: both;
+	}
+	.image {
+		height: 250px;
+		overflow: hidden;
+	}
+	.width-100 {
+		width: 100%;
+		height: auto;
+	}
+
+	</style>
+
+</head>
+
+<body>
+
+<div class="image-wrapper">
+	<h1> <em>Impressionism Art Gallery </em></h1>
+	<div class="image-row1">
+		<div class="image"><img class="width-100" src="impressionism/image1.webp" alt="Impressionism Painting 1"></div>
+
+			<p>In the Garden at Maurecourt</p>
+
+	</div>
+	<div class="image-row1">
+		<div class="image"><img class="width-100" src="impressionism/image2.jpg" alt="Impressionism Painting 2"></div>
+
+			<p>Claude Monet Painting in His Garden at Argenteuil</p>
+
+
+	</div>
+	<div class="image-row1">
+		<div class="image"><img class="width-100" src="impressionism/image3.jpg" alt="Impressionism Painting 3"></div>
+		<div class="overlay">
+			<p>The sadness will last forever</p>
+		</div>
+	</div>
+	<div class="clearfloat"></div>
+	<div class="image-row2">
+		<div class="image"><img class="width-100" src="impressionism/image4.jpg" alt="Impressionism Painting 4"></div>
+
+			<p>Camille Monet and a Child in the Artist's Garden in Argenteuil</p>
+
+	</div>
+	<div class="image-row2">
+		<div class="image"><img class="width-100" src="impressionism/image5.jpg" alt="Impressionism Painting 5"></div>
+
+			<p>The Water Lily Pond</p>
+		</div>
+	<div class="image-row2">
+		<div class="image"><img class="width-100" src="impressionism/image6.jpg" alt="Impressionism Painting 6"></div>
+
+			<p>The Artist's Garden at Giverny</p>
+	</div>
+	<div class="clearfloat"></div>
+</div>
+</div>
+</body>
+
+
+</html>
