@@ -1,0 +1,173 @@
+body {
+				margin: 0;
+				font-family: Helvetica;
+				background: rgb(246,218,255);
+background: -moz-radial-gradient(circle, rgba(246,218,255,1) 8%, rgba(255,255,255,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(246,218,255,1) 8%, rgba(255,255,255,1) 100%);
+background: radial-gradient(circle, rgba(246,218,255,1) 8%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f6daff",endColorstr="#ffffff",GradientType=1);
+			}
+			.nav-bar {
+			    width: 100%;
+			    height: 100px;
+			    border-bottom: 1px solid #EEEEEE;
+			    background-color: #FFFFFF;
+			    position: fixed; 
+			    top: 0;
+			}
+
+			.brand {
+				width: 65px;
+			    height: 30px;
+			    position: relative;
+/*			    top: 35px; */
+			    left: 72px;
+			    font-size: 32px;
+			    font-weight: 700;
+			    color: #9730FF;
+			    line-height: 30px;
+/*			    font-family: ;*/
+			}
+			.profile-pic img{
+				width:51.87px;
+				height:51.87px;
+				position:absolute;
+				top:26px;
+
+				right:120px;
+				border-radius: 50%;
+/*				left:1392px;*/
+			}
+			#wrapper {
+				margin-top: 259px;
+			    margin-left:71px;
+			}
+			.title {
+			    width: 585px;
+			    /*height: 77px;
+			    position: absolute; /* Add absolute positioning */
+			    font-family: Helvetica;
+			    font-size: 48px; /* Specify font size */
+			    font-weight: 400; /* Specify font weight */
+			    line-height: 76.8px;
+			
+
+			}
+			./*row-wrapper {
+				position: absolute;
+	            top: 384px; 
+	            left: 71px;
+			}*/
+			.row {
+				margin-bottom: 40px;
+			}
+			.container {
+				display:inline-block;
+				width: 274.69px;
+				padding: 20px;
+				border-radius: 8.9px;
+				border: 0.89px solid #C8C8C8;
+				margin:10px;
+				background-color: #FFFFFF;
+				vertical-align: top;
+
+			}
+}
+			.inner-container {
+			    /*width: 215.79px;
+			    height: 92.27px;*/
+			    position: relative; 
+			    background-color: #FFFFFF;
+			    margin: 0 auto;
+			}
+			.thumbnail {
+			    width: 37px;
+			    height: 37px;
+			    display: inline-block;
+			}
+
+			.thumbnail img {
+			    width: 100%;
+			    height: auto;
+			}
+
+			.figma {
+				width:27px !important;
+			}
+			.google-drive {
+				width:42px !important;
+			}
+			.logo-bar {
+				position: relative;
+			}
+			
+			.connect-button p {
+				display: inline-block;
+				position: absolute;
+				top: -10px;
+				right: 10px;
+				text-align: center;
+				width: 99px;
+				radius:5px;
+				padding: 5px 10px;
+				border-radius: 5px;
+				border: 1px solid #C8C8C8;
+				cursor: pointer;
+			}
+			.card-title {
+				font-family: Helvetica;
+				font-size: 17.8px;
+				font-weight: 400;
+				line-height: 20.47px;
+			}
+			.card-description {
+				font-family: Helvetica;
+				font-weight:400px;
+				font-size: 13.35px;
+				line-height: 15.35px;
+			}
+			#buttons {
+				margin-top:100px;
+				cursor: pointer;
+			}
+			.back-button {
+				border-radius: 10px;
+				border: 1px solid #C8C8C8;
+				padding: 0px 30px;
+				display:inline-block;
+				vertical-align: top;
+				background: #FFFFFF;
+				margin-bottom: 50px;
+				margin-right: 15px;
+				margin-left: 10px;
+				text-decoration: none;
+				color: inherit;
+			}
+			.finish-button {
+				border-radius: 10px;
+				border: 1px solid #C8C8C8;
+				padding: 0px 40px;
+				display:inline-block;
+				vertical-align: top;
+				background: #1A1225;
+				text-decoration: none;
+				color: inherit;
+
+			}
+			.back-button p {
+				font-family: Helvetica;
+				font-size: 18px;
+				font-weight: 700;
+				line-height: 24px;
+				text-align: center;
+			}
+			
+			.finish-button p {
+				font-family: Helvetica;
+
+				font-size: 18px;
+				font-weight: 700;
+				line-height: 24px;
+				text-align: center;
+				color: #FFFFFF;
+			}
